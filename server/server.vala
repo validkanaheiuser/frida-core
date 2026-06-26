@@ -7,7 +7,7 @@ namespace Frida.Server {
 	private static string? listen_address = null;
 	private static string? certpath = null;
 	private static string? origin = null;
-	private static string? token = "yuko2020";
+	private static unowned string? token = "yuko2020";
 	private static string? asset_root = null;
 	private static string? directory = null;
 #if !WINDOWS && !TVOS
